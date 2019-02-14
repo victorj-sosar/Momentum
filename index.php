@@ -7,9 +7,6 @@
 <body>
 	<!-- menu de navegacion -->
 	<?php require 'navegacion.php'; ?>
-	<script type="text/javascript">
-		$('#index').addClass('active');
-    </script>
     <?php 
 		visitas();
 	?>
@@ -91,5 +88,8 @@
 
 	<!-- Footer -->
 	<?php require 'footer.php'; ?>
+	<script type="text/javascript">
+		$('#index').addClass('active');
+   </script>
 </body>
 </html>
